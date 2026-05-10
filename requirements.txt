@@ -1,0 +1,26 @@
+# Base dependencies for most lessons.
+# Lesson-specific heavy packages (diffusers, transformers, langgraph, ragas, etc.)
+# are installed in each notebook's first cell.
+
+# LLM providers
+anthropic>=0.40.0
+openai>=1.30.0
+
+# Environment / config
+python-dotenv>=1.0.0
+
+# Data
+pandas>=2.0
+numpy>=1.26
+requests>=2.31
+
+# Notebook tooling
+jupyter
+ipykernel
+ipywidgets
+
+# RAG basics (modules 6, 8) — heavier RAG stacks installed per-notebook
+langchain>=0.2.0
+langchain-anthropic>=0.1.0
+langchain-community>=0.2.0
+chromadb>=0.4.0
